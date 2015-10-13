@@ -43,7 +43,7 @@ function spewTask(nb){
   while(nb--) pushTask();
 }
 
-if(argv[3] == "spew"){
+if(process.argv[3] == "spew"){
   var nb = parseInt(process.argv[4] || "100");
   spewTask(nb);
 }else{
