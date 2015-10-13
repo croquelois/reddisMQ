@@ -1,0 +1,14 @@
+{
+  "name": "reddisMQtest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "startProducer": "node app.js",
+    "startConsumer": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "redis": "^2.2.1"
+  }
+}
